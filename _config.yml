@@ -8,10 +8,19 @@
 # Site settings
 title: You are awesome!
 email: francis04j[AT]gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+#My company Silktide is now on Quora
+#I blog at oliveremberton.com
+#My best answers and my original quotes
+#Who is Oliver Emberton and what does his company do? 
+#Follow me on Twitter or Facebook
+ #0 Write an awesome description for your new site here. You can edit this
+  #line in _config.yml. It will appear in your document head meta (for
+  #Google search results) and in your feed.xml site description. 
+description: > # Hi, I'm Francis Adediran. I'm a student for life, forever curious 
+and continous cultivation.  
+
+  Entrepreneur,programmer, author-in-training, wanna be chef, dancer,
+  artist and general busy bee. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: fran6_ca
