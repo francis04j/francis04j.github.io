@@ -1,0 +1,98 @@
+#top {
+    background: -webkit-linear-gradient(#077CBC, #077CBC);
+    background: -o-linear-gradient(#077CBC, #077CBC);
+    background: -moz-linear-gradient(#077CBC, #077CBC);
+    background: linear-gradient(#077CBC, #333);
+    background-image: url("../images/cover.jpg");
+    background-color: #077CBC;
+    background-position: center;
+    background-size: cover;    
+}
+
+header,
+section,
+footer,
+.button-group {
+    margin-top: 20px;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+header h1, header p {
+    color: #fff;
+}
+p.intro {
+    color: #000;
+    font-size: 16px;
+}
+img.icon {
+    margin-right: 10px;
+    width: 100px;
+    height: 65px;
+}
+
+.navbar-default {
+    background-color: #1B95E0;
+    font-size: 16px;
+}
+.label-default {
+    font-size: 100%;
+    padding: .75em;
+    line-height: 3.25;
+}
+
+.social a {
+    margin-right: 5px;
+}
+
+.social .fa {
+    font-size: 20px;
+    padding: 20px;
+    color: #fff;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.social .fa:hover {
+    opacity: 0.8;
+}
+
+.social .fa-facebook {
+    background: #3B5998;
+}
+
+.social .fa-twitter {
+    background: #55ACEE;
+}
+
+.social .fa-google {
+    background: #dd4b39;
+}
+
+.social .fa-linkedin {
+    background: #007bb5;
+}
+
+.social .fa-github {
+    background: #000;
+}
+
+.social .fa-envelope {
+    background: #000;
+}
+
+.social .fa-wordpress {
+    background: #ccc;
+}
+
+.social .fa-stack-overflow {
+    background: #3B5998;
+}
+@media (max-width: 767px) {
+    .btn-xs-block {
+        display: block;
+        width: 100%;
+    }
+}
