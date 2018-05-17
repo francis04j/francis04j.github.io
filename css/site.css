@@ -2,8 +2,7 @@
     background: -webkit-linear-gradient(#1B95E0, #1B95E0);
     background: -o-linear-gradient(#1B95E0, #1B95E0);
     background: -moz-linear-gradient(#1B95E0, #1B95E0);
-    background: linear-gradient(#1B95E0, #333);
-    background-image: url("../images/cover.jpg");
+    background: linear-gradient(#1B95E0, #333);    
     background-color: #1B95E0;
     background-position: center;
     background-size: cover;    
@@ -24,6 +23,21 @@ header h1, header p {
     color: #fff;
     font-style: italic;
     font-weight: bold;
+}
+
+header h1::before, header h1::after {
+    content: " ";
+    display: inline-block;
+    height: 2px;
+    margin: 0 10px;
+    position: absolute;
+    top: 43%;
+    width: 75px;
+    zoom: 1;
+    background: #fff;
+}
+header h1::before {
+    right: 85%;
 }
 p.intro {
     color: #000;
