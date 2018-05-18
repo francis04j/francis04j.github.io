@@ -29,13 +29,13 @@ a {
     bottom: 0;
      width: 80px;
      height: 270px;
-     background-image: url(http://www.rleonardi.com/interactive-resume/image/algae-a.png)
+     background-image: url(../images/algae-a.png)
 }
 #alien,.algae-a,.algae-b{
     position:absolute
 }
 .algae-b{
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/algae-b.png);
+    background-image:url(../images/algae-b.png);
     bottom:0;
     width:162px;
     height:252px
@@ -52,25 +52,25 @@ a {
     top:0;
     width:400px;
     height:515px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/alien-body.png)
+    background-image:url(../images/alien-body.png)
 }
 #alien-ship,#alien-steer{
     top:515px;
     height:121px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/alien-ship.png)
+    background-image:url(../images/alien-ship.png)
 }
 #alien-steer{
     left:90px;
     top:430px;
     width:220px;
     height:170px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/alien-steer.png)
+    background-image:url(../images/alien-steer.png)
 }
 #balloon{
     position:absolute;
     width:400px;
     height:700px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/balloon.png)
+    background-image:url(../images/balloon.png)
 }
 .banner{
     margin-bottom:60px
@@ -111,10 +111,10 @@ a {
     width:480px;
     height:56px;
     margin-top:-1px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/banner-bottom-a.png)
+    background-image:url(../images/banner-bottom-a.png)
 }
 .banner-bottom-b{
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/banner-bottom-b.png)
+    background-image:url(../images/banner-bottom-b.png)
 }
 #banners-container{
     position:absolute;
@@ -137,10 +137,10 @@ a {
     width:520px;
     height:23px;
     margin-bottom:-1px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/banner-top-a.png)
+    background-image:url(../images/banner-top-a.png)
 }
 .banner-top-b{
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/banner-top-b.png)
+    background-image:url(../images/banner-top-b.png)
 }
 body{
     margin:0;
@@ -152,14 +152,14 @@ body{
     bottom:20%;
     width:700px;
     height:100px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/box.png)
+    background-image:url(../images/box.png)
 }
 #bubble{
     position:relative;
     left:-50%;
     width:16px;
     height:16px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/bubble.png)
+    background-image:url(../images/bubble.png)
 }
 #bubble-container,.building{
     position:absolute
@@ -169,21 +169,21 @@ body{
     bottom:0;
     width:190px;
     height:500px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/building-a.png)
+    background-image:url(../images/building-a.png)
 }
 #building-2{
     left:305px;
     bottom:0;
     width:200px;
     height:495px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/building-c.png)
+    background-image:url(../images/building-c.png)
 }
 #building-3{
     left:710px;
     bottom:0;
     width:190px;
     height:500px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/building-c.png)
+    background-image:url(../images/building-c.png)
 }
 .building-enemy-face-a{
     position:absolute;
@@ -191,7 +191,7 @@ body{
     top:395px;
     width:65px;
     height:65px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/enemy-face-a.png)
+    background-image:url(../images/enemy-face-a.png)
 }
 .building-enemy-face-a-eyes{
     position:absolute;
@@ -201,7 +201,7 @@ body{
     height:25px;
     opacity:0;
     filter:alpha(opacity=0);
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/enemy-face-a-eyes.png)
+    background-image:url(../images/enemy-face-a-eyes.png)
 }
 .building-enemy-face-b{
     position:absolute;
@@ -209,7 +209,7 @@ body{
     top:375px;
     width:80px;
     height:80px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/enemy-face-b.png)
+    background-image:url(../images/enemy-face-b.png)
 }
 .building-enemy-face-b-eyes{
     position:absolute;
@@ -219,7 +219,7 @@ body{
     height:30px;
     opacity:0;
     filter:alpha(opacity=0);
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/enemy-face-b-eyes.png)
+    background-image:url(../images/enemy-face-b-eyes.png)
 }
 #buildings-container{
     position:absolute;
@@ -247,18 +247,18 @@ body{
     top:0;
     width:380px;
     height:30px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/building-a-leg-frame.png)
+    background-image:url(../images/building-a-leg-frame.png)
 }
 .building-leg-frame-b{
     width:300px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/building-b-leg-frame.png)
+    background-image:url(../images/building-b-leg-frame.png)
 }
 .chain-block{
     position:absolute;
     bottom:0;
     width:100px;
     height:90px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/chain-block.png)
+    background-image:url(../images/chain-block.png)
 }
 .chain-block-string{
     position:absolute;
@@ -266,7 +266,7 @@ body{
     bottom:60px;
     width:44px;
     height:100%;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/chain-block-string.png)
+    background-image:url(../images/chain-block-string.png)
 }
 .chain-block-and-string-container{
     position:absolute;
@@ -278,10 +278,10 @@ body{
     width:200px;
     height:150px;
     bottom:-70%;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/coral-a.png)
+    background-image:url(../images/coral-a.png)
 }
 .coral-b{
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/coral-b.png)
+    background-image:url(../images/coral-b.png)
 }
 #coral-1{
     left:4800px
@@ -300,14 +300,14 @@ body{
     bottom:-70%;
     width:300px;
     height:400px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/coral-big-a.png)
+    background-image:url(../images/coral-big-a.png)
 }
 #coral-big-2{
     left:1700px;
     bottom:-70%;
     width:650px;
     height:500px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/coral-big-b.png)
+    background-image:url(../images/coral-big-b.png)
 }
 #contact-box{
     position:absolute;
@@ -315,7 +315,7 @@ body{
     margin-left:-840px;
     width:940px;
     height:420px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/contact-box.png)
+    background-image:url(../images/contact-box.png)
 }
 #contact-box-email{
     position:absolute;
@@ -323,7 +323,7 @@ body{
     top:20px;
     width:350px;
     height:30px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/contact-box-hole-a.png)
+    background-image:url(../images/contact-box-hole-a.png)
 }
 #contact-box-email input,#contact-box-subject input{
     font-family:Arial;
@@ -343,12 +343,12 @@ body{
     top:65px;
     width:350px;
     height:30px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/contact-box-hole-a.png)
+    background-image:url(../images/contact-box-hole-a.png)
 }
 #contact-box-message{
     top:110px;
     height:170px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/contact-box-hole-b.png)
+    background-image:url(../images/contact-box-hole-b.png)
 }
 #contact-box-message textarea{
     font-family:Arial;
@@ -381,7 +381,7 @@ body{
     top:100%;
     width:100%;
     height:21px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/contact-cloud-bottom.png)
+    background-image:url(../images/contact-cloud-bottom.png)
 }
 #contact-cloud-middle{
     position:absolute;
@@ -409,7 +409,7 @@ body{
     bottom:20%;
     width:100%;
     height:21px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/contact-cloud-top.png)
+    background-image:url(../images/contact-cloud-top.png)
 }
 .contact-confirmation{
     position:relative;
@@ -471,7 +471,7 @@ body{
     top:170px;
     width:20px;
     height:20px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/contact-confirmation-triangle.png)
+    background-image:url(../images/contact-confirmation-triangle.png)
 }
 #contact-container,.cloud,.content-noscroll{
     position:absolute;
@@ -484,7 +484,7 @@ body{
 .cloud{
     width:180px;
     height:120px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/cloud.png)
+    background-image:url(../images/cloud.png)
 }
 #cloud-1{
     left:100px;
@@ -535,7 +535,7 @@ body{
     width:130px;
     height:89px;
     overflow:hidden;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/crab.png)
+    background-image:url(../images/crab.png)
 }
 .crab-eyes{
     position:absolute;
@@ -545,7 +545,7 @@ body{
     height:19px;
     opacity:0;
     filter:alpha(opacity=0);
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/crab-eyes.png)
+    background-image:url(../images/crab-eyes.png)
 }
 #crab-ribbon-container-1{
     top:0
@@ -578,7 +578,7 @@ body{
     bottom:20%;
     width:110px;
     height:80%;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/crane.png);
+    background-image:url(../images/crane.png);
     background-position:0% 100%
 }
 #crane-1{
@@ -613,11 +613,11 @@ body{
     top:80%;
     width:2970px;
     height:50px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/dock-floor.png)
+    background-image:url(../images/dock-floor.png)
 }
 #dock-column{
     height:20%;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/dock-column.png)
+    background-image:url(../images/dock-column.png)
 }
 #elevation-1,#elevation-2{
     left:4380px;
@@ -644,13 +644,13 @@ body{
     width:100%;
     height:100px;
     bottom:0;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/box.png)
+    background-image:url(../images/box.png)
 }
 .elevation-floor{
     position:absolute;
     width:100%;
     height:50px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/floor.png)
+    background-image:url(../images/floor.png)
 }
 .enemy-face-frame-a,.enemy-face-frame-b{
     position:absolute;
@@ -658,12 +658,12 @@ body{
     top:0;
     width:130px;
     height:65px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/enemy-face-frame-a.png)
+   /* background-image:url(../images/enemy-face-frame-a.png)*/
 }
 .enemy-face-frame-b{
     width:160px;
     height:80px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/enemy-face-frame-b.png)
+    /*background-image:url(../images/enemy-face-frame-b.png)*/
 }
 #experience-1-container,#experience-2-container,#experience-3-container{
     position:absolute;
@@ -721,7 +721,7 @@ body{
     position:absolute;
     width:485px;
     height:230px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/email-button.png)
+    background-image:url(../images/email-button.png)
 }
 .face-left{
     -moz-transform:scaleX(-1);
@@ -741,7 +741,7 @@ body{
     position:absolute;
     width:740px;
     height:100px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/fence.png)
+ /*background-image:url(../images/fence.png) */
 }
 .firework{
     position:relative;
@@ -789,7 +789,7 @@ body{
     width:125px;
     height:93px;
     overflow:hidden;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/fish.png)
+    background-image:url(../images/fish.png)
 }
 .fish-eyes{
     left:18px;
@@ -798,7 +798,7 @@ body{
     height:18px;
     opacity:0;
     filter:alpha(opacity=0);
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/fish-eyes.png)
+    background-image:url(../images/fish-eyes.png)
 }
 #fishes-container{
     position:absolute;
@@ -830,7 +830,7 @@ body{
     position:absolute;
     width:100%;
     height:50px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/floor.png)
+    background-image:url(../images/floor.png)
 }
 @font-face{
     font-family:'frankfurter-medium-plain';
@@ -864,7 +864,7 @@ body{
     position:absolute;
     top:80%;
     height:90%;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/foundation.png)
+    background-image:url(../images/foundation.png)
 }
 #foundation-1{
     left:13320px;
@@ -875,7 +875,7 @@ body{
     bottom:20%;
     width:320px;
     height:300px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/gate.png)
+    background-image:url(../images/gate.png)
 }
 #gate-1{
     left:2100px
@@ -909,11 +909,11 @@ body{
     position:absolute;
     width:100%;
     height:50px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/grass.png)
+    background-image:url(../images/grass.png)
 }
 .ground{
     height:100%;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/ground.png)
+    background-image:url(../images/ground.png)
 }
 #ground-and-grass-container-1{
     position:absolute;
@@ -950,7 +950,7 @@ img{
     top:0;
     width:80px;
     height:230px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/javascript-banner-left.png)
+    background-image:url(../images/javascript-banner-left.png)
 }
 #javascript-banner-middle{
     position:absolute;
@@ -966,7 +966,7 @@ img{
     top:0;
     width:80px;
     height:230px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/javascript-banner-right.png)
+    background-image:url(../images/javascript-banner-right.png)
 }
 #javascript-banner-text-a,#javascript-banner-text-b{
     position:relative;
@@ -1011,7 +1011,7 @@ img{
     bottom:20%;
     width:800px;
     height:400px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/mountain.png)
+    background-image:url(../images/mountain.png)
 }
 #mountain-1{
     left:1000px
@@ -1025,7 +1025,7 @@ img{
     bottom:250px;
     width:70px;
     height:70px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/nba-ball.png)
+    background-image:url(../images/nba-ball.png)
 }
 #nba-board-1{
     left:0;
@@ -1055,10 +1055,10 @@ img{
     position:absolute;
     width:110px;
     height:140px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/nba-board-blue.png)
+    background-image:url(../images/nba-board-blue.png)
 }
 .nba-board-red{
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/nba-board-red.png)
+    background-image:url(../images/nba-board-red.png)
 }
 #nba-container{
     position:absolute;
@@ -1082,7 +1082,7 @@ img{
     height:30px;
     opacity:0;
     filter:alpha(opacity=0);
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/enemy-face-b-eyes.png)
+    background-image:url(../images/enemy-face-b-eyes.png)
 }
 #nba-player-container{
     position:absolute;
@@ -1095,7 +1095,7 @@ img{
     top:0;
     width:1200px;
     height:280px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/nba-player.png)
+    background-image:url(../images/nba-player.png)
 }
 #nba-rim,#nba-rim-container{
     position:absolute;
@@ -1108,7 +1108,7 @@ img{
 }
 #nba-rim{
     height:550px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/nba-rim.png)
+    background-image:url(../images/nba-rim.png)
 }
 .nba-text{
     position:relative;
@@ -1149,7 +1149,7 @@ img{
     top:90px;
     width:600px;
     height:100px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/hangar-window.png)
+    background-image:url(../images/hangar-window.png)
 }
 #page{
     left:0;
@@ -1161,7 +1161,7 @@ img{
     top:60px;
     width:100%;
     height:100%;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/panel.png)
+    background-image:url(../images/panel.png)
 }
 #panel-and-floor-container{
     position:absolute;
@@ -1196,14 +1196,14 @@ img{
     top:0;
     width:300px;
     height:300px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/piechart-back.png)
+    background-image:url(../images/piechart-back.png)
 }
 #piechart-foxnews{
     left:50px;
     top:130px
 }
 #piechart-foxnews-front{
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/piechart-foxnews-front.png)
+    background-image:url(../images/piechart-foxnews-front.png)
 }
 #piechart-foxnews-text-graphic-1{
     left:25px;
@@ -1239,7 +1239,7 @@ img{
     top:0;
     width:300px;
     height:300px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/piechart-foxnews-front.png)
+    background-image:url(../images/piechart-foxnews-front.png)
 }
 #piechart-incognito-text-graphic-1{
     left:202px;
@@ -1292,7 +1292,7 @@ img{
 }
 .plant-head-leaves{
     height:250px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/plant-head-leaves.png)
+    background-image:url(../images/plant-head-leaves.png)
 }
 .plant-stalk{
     position:absolute;
@@ -1373,7 +1373,7 @@ img{
     width:20px;
     height:40px;
     margin-right:-1px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/plant-ribbon-left.png)
+    background-image:url(../images/plant-ribbon-left.png)
 }
 .plant-ribbon-middle{
     position:relative;
@@ -1393,7 +1393,7 @@ img{
     width:20px;
     height:40px;
     margin-left:-1px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/plant-ribbon-right.png)
+    background-image:url(../images/plant-ribbon-right.png)
 }
 #plant-text-1{
     bottom:66%
@@ -1442,7 +1442,7 @@ img{
     top:0;
     width:80px;
     height:230px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/preloader-banner-left.png)
+    background-image:url(../images/preloader-banner-left.png)
 }
 #preloader-banner-middle{
     position:absolute;
@@ -1458,7 +1458,7 @@ img{
     top:0;
     width:80px;
     height:230px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/preloader-banner-right.png)
+    background-image:url(../images/preloader-banner-right.png)
 }
 #preloader-banner-text-a,#preloader-banner-text-b{
     position:relative;
@@ -1480,10 +1480,10 @@ img{
     height:9px
 }
 .preloader-dots-animation{
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/preloader-dots-animation.gif)
+    background-image:url(../images/preloader-dots-animation.gif)
 }
 .preloader-dots-static{
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/preloader-dots-static.png)
+    background-image:url(../images/preloader-dots-static.png)
 }
 #robby{
     position:relative;
@@ -1503,14 +1503,14 @@ img{
     left:90px;
     width:55px;
     height:25px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/robby-eyes-close.png)
+    background-image:url(../images/robby-eyes-close.png)
 }
 #robby-slides{
     left:0;
     top:0;
     width:1800px;
     height:400px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/robby-slides.png)
+    background-image:url(../images/robby-slides.png)
 }
 #ribbon-2-1{
     left:9390px;
@@ -1540,7 +1540,7 @@ img{
     width:55px;
     height:75px;
     margin-right:-1px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/ribbon-left.png)
+    background-image:url(../images/ribbon-left.png)
 }
 .ribbon-middle{
     position:relative;
@@ -1558,7 +1558,7 @@ img{
     width:55px;
     height:75px;
     margin-left:-1px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/ribbon-right.png)
+    background-image:url(../images/ribbon-right.png)
 }
 .ribbon-relative{
     display:inline-block
@@ -1576,31 +1576,31 @@ img{
     top:0;
     width:500px;
     height:399px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/robot-body.png)
+    background-image:url(../images/robot-body.png)
 }
 .robot-hand-a{
     position:absolute;
     left:0;
     width:160px;
     height:137px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/robot-hand-a.png)
+    background-image:url(../images/robot-hand-a.png)
 }
 .robot-hand-b,.robot-hand-c,.robot-hand-d{
     position:absolute;
     left:20px;
     width:120px;
     height:137px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/robot-hand-b.png)
+    background-image:url(../images/robot-hand-b.png)
 }
 .robot-hand-c,.robot-hand-d{
     left:60px;
     width:40px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/robot-hand-c.png)
+    background-image:url(../images/robot-hand-c.png)
 }
 .robot-hand-d{
     left:20px;
     width:120px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/robot-hand-d.png)
+    background-image:url(../images/robot-hand-d.png)
 }
 #robot-hand-left,#robot-hand-right{
     position:absolute;
@@ -1658,7 +1658,7 @@ img{
     width:20px;
     height:40px;
     margin-right:-1px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/sea-ribbon-left.png)
+    background-image:url(../images/sea-ribbon-left.png)
 }
 .sea-ribbon-middle{
     position:relative;
@@ -1678,13 +1678,13 @@ img{
     width:20px;
     height:40px;
     margin-left:-1px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/sea-ribbon-right.png)
+    background-image:url(../images/sea-ribbon-right.png)
 }
 .sea-wave{
     position:absolute;
     bottom:10%;
     height:6px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/sea-wave.png)
+    background-image:url(../images/sea-wave.png)
 }
 #sea-wave-1{
     left:8100px;
@@ -1759,7 +1759,7 @@ img{
     width:80px;
     height:21px;
     margin-top:-1px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/social-bottom.png)
+    background-image:url(../images/social-bottom.png)
 }
 #social-container{
     position:absolute;
@@ -1780,7 +1780,7 @@ img{
     width:120px;
     height:23px;
     margin-bottom:-1px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/social-top.png)
+    background-image:url(../images/social-top.png)
 }
 .social-icon{
     position:relative;
@@ -1805,7 +1805,7 @@ img{
     top:0;
     width:450px;
     height:544px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/squid-body.png)
+    background-image:url(../images/squid-body.png)
 }
 #squid-body,.squid-hand-close,.squid-hand-open{
     position:absolute
@@ -1815,50 +1815,50 @@ img{
     top:399px;
     width:80px;
     height:83px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/squid-hand-close-a.png)
+    background-image:url(../images/squid-hand-close-a.png)
 }
 #squid-hand-close-2,#squid-hand-close-3{
     left:100px;
     top:510px;
     width:82px;
     height:81px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/squid-hand-close-b.png)
+    background-image:url(../images/squid-hand-close-b.png)
 }
 #squid-hand-close-3{
     left:388px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/squid-hand-close-c.png)
+    background-image:url(../images/squid-hand-close-c.png)
 }
 #squid-hand-close-4{
     left:490px;
     top:399px;
     width:80px;
     height:83px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/squid-hand-close-d.png)
+    background-image:url(../images/squid-hand-close-d.png)
 }
 #squid-hand-open-1{
     left:0;
     top:394px;
     width:85px;
     height:100px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/squid-hand-open-a.png)
+    background-image:url(../images/squid-hand-open-a.png)
 }
 #squid-hand-open-2,#squid-hand-open-3{
     left:94px;
     top:502px;
     width:96px;
     height:97px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/squid-hand-open-b.png)
+    background-image:url(../images/squid-hand-open-b.png)
 }
 #squid-hand-open-3{
     left:380px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/squid-hand-open-c.png)
+    background-image:url(../images/squid-hand-open-c.png)
 }
 #squid-hand-open-4{
     left:485px;
     top:394px;
     width:85px;
     height:100px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/squid-hand-open-d.png)
+    background-image:url(../images/squid-hand-open-d.png)
 }
 #title-about,#title-awards-and{
     position:absolute;
@@ -1866,13 +1866,13 @@ img{
     bottom:20%;
     width:800px;
     height:400px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/title-about.png)
+    background-image:url(../images/title-about.png)
 }
 #title-awards-and{
     left:19710px;
     width:1060px;
     height:420px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/title-awards-and.png)
+    background-image:url(../images/title-awards-and.png)
 }
 #title-contact{
     position:absolute;
@@ -1880,7 +1880,7 @@ img{
     margin-left:-1040px;
     width:1080px;
     height:540px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/title-contact.png)
+    background-image:url(../images/title-contact.png)
 }
 #title-experience { /*,#title-leonardi{ */
     position:absolute;
@@ -1888,14 +1888,14 @@ img{
     bottom:20%;
     width:1140px;
     height:400px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/title-experience.png)
+    background-image:url(../images/title-experience.png)
 }
 #title-leonardi{
     left:200px;
     bottom:0;
     width:880px;
     height:300px;
-    /* background-image:url(http://www.rleonardi.com/interactive-resume/image/title-leonardi.png)*/
+    /* background-image:url(../images/title-leonardi.png)*/
 }
 #title-publication { /*,#title-robby{ */
     position:absolute;
@@ -1903,20 +1903,20 @@ img{
     bottom:20%;
     width:1180px;
     height:300px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/title-publication.png)
+    background-image:url(../images/title-publication.png)
 }
 #title-robby{
     left:0;
     bottom:0;
     width:840px;
     height:420px;
-  /*  background-image:url(http://www.rleonardi.com/interactive-resume/image/title-robby.png) */
+  /*  background-image:url(../images/title-robby.png) */
 }
 #title-skills{
     position:absolute;
     width:820px;
     height:400px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/title-skills.png)
+    background-image:url(../images/title-skills.png)
 }
 .transparent{
     opacity:0;
@@ -2021,59 +2021,59 @@ img{
     position:absolute;
     width:140px;
     height:95px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/tree-bright-a.png)
+    background-image:url(../images/tree-bright-a.png)
 }
 .tree-bright-b,.tree-bright-c{
     position:absolute;
     width:140px;
     height:185px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/tree-bright-b.png)
+    background-image:url(../images/tree-bright-b.png)
 }
 .tree-bright-c{
     width:200px;
     height:240px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/tree-bright-c.png)
+    background-image:url(../images/tree-bright-c.png)
 }
 .tree-bright-d,.tree-bright-e{
     position:absolute;
     width:200px;
     height:300px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/tree-bright-d.png)
+    background-image:url(../images/tree-bright-d.png)
 }
 .tree-bright-e{
     height:430px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/tree-bright-e.png)
+    background-image:url(../images/tree-bright-e.png)
 }
 .tree-dark-a,.tree-dark-b,.tree-dark-c{
     position:absolute;
     width:140px;
     height:95px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/tree-dark-a.png)
+    background-image:url(../images/tree-dark-a.png)
 }
 .tree-dark-b,.tree-dark-c{
     height:185px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/tree-dark-b.png)
+    background-image:url(../images/tree-dark-b.png)
 }
 .tree-dark-c{
     width:200px;
     height:240px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/tree-dark-c.png)
+    background-image:url(../images/tree-dark-c.png)
 }
 .tree-dark-d,.tree-dark-e,.turtle{
     position:absolute;
     width:200px;
     height:300px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/tree-dark-d.png)
+    background-image:url(../images/tree-dark-d.png)
 }
 .tree-dark-e,.turtle{
     height:430px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/tree-dark-e.png)
+    background-image:url(../images/tree-dark-e.png)
 }
 .turtle{
     width:125px;
     height:75px;
     overflow:hidden;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/turtle.png)
+    background-image:url(../images/turtle.png)
 }
 .turtle-eyes{
     position:absolute;
@@ -2083,7 +2083,7 @@ img{
     height:18px;
     opacity:0;
     filter:alpha(opacity=0);
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/turtle-eyes.png)
+    background-image:url(../images/turtle-eyes.png)
 }
 #turtle-ribbon-container-1{
     top:0
@@ -2119,14 +2119,14 @@ img{
     height:100%
 }
 #waterfall-1{
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/waterfall-a.png)
+    background-image:url(../images/waterfall-a.png)
 }
 #waterfall-2{
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/waterfall-b.png)
+    background-image:url(../images/waterfall-b.png)
 }
 .window{
     position:absolute;
     width:190px;
     height:110px;
-    background-image:url(http://www.rleonardi.com/interactive-resume/image/window.png)
+    /*background-image:url(../images/window.png) */
 }
