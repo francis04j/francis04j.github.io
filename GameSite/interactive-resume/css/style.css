@@ -1531,8 +1531,11 @@ img{
     position:absolute;
     width:100%;
     height:75px;
-    top:5%;
+    top:15%;
     text-align:center
+}
+.multidisc.ribbon-container{    
+    top:5%;    
 }
 .ribbon-left{
     position:relative;
