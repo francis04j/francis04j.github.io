@@ -3,6 +3,10 @@ a
 	text-decoration: none;
 }
 
+main {
+	display: flex;
+    flex-wrap: nowrap;
+}
 .avatar
 {
 	position: relative;
@@ -150,8 +154,7 @@ img
 
 .portfolio
 {
-	position: relative;
-	width: 100%;
+	width: 50%;
 	height: 600px;
 }
 
@@ -238,16 +241,7 @@ img
 	width: 360px;
 	top: 50%;
 	transform: translateY(-50%);
-}
-
-.portfolio-text-container-left
-{
-	left: 0px;
-}
-
-.portfolio-text-container-right
-{
-	right: 0px;
+	margin-left: 5%;
 }
 
 .portfolio-text-title
