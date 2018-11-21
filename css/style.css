@@ -205,6 +205,8 @@ img
 	font-size: 14px;
 	line-height: 18px;
 	margin-bottom: 20px;
+	    height: 100px;
+	width: 50%;
 }
 
 .portfolio-text-button-arrow
@@ -246,11 +248,12 @@ img
 	position: relative;
 	font-family: miso-bold;
 	color: #ffffff;
-	font-size: 70px;	
+	font-size: 2em;	
 	margin-bottom: 18px;
 	font-size: 2em;
 	width: 50%;
     white-space: normal;
+	height: 10vh;
 }
 
 .text
