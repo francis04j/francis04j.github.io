@@ -246,9 +246,11 @@ img
 	position: relative;
 	font-family: miso-bold;
 	color: #ffffff;
-	font-size: 70px;
-	line-height: 56px;
+	font-size: 70px;	
 	margin-bottom: 18px;
+	font-size: 2em;
+	width: 50%;
+    white-space: normal;
 }
 
 .text
