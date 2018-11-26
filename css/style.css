@@ -207,6 +207,7 @@ img
 	margin-bottom: 20px;
 	    height: 100px;
 	width: 50%;
+	word-break: break-word;
 }
 
 .portfolio-text-button-arrow
@@ -253,7 +254,7 @@ img
 	font-size: 2em;
 	width: 50%;
     white-space: normal;
-	height: 10vh;
+	height: 15vh;
 }
 
 .text
