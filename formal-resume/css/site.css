@@ -25,27 +25,11 @@ header h1, header p {
     font-weight: bold;
 }
 
-header h1::before, header h1::after {
-    content: " ";
-    display: inline-block;
-    height: 2px;
-    margin: 0 10px;
-    position: absolute;
-    top: 43%;
-    width: 75px;
-    zoom: 1;
-    background: #fff;
-}
-header h1::before {
-    right: 85%;
-}
 p.intro {
-    color: #000;
-    font-size: 16px;
+    font-size: 2em;
 }
 img.icon {
     margin-right: 10px;
-    width: 100px;
     height: 65px;
 }
 
@@ -65,10 +49,10 @@ img.icon {
 
 .social .fa {
     font-size: 20px;
-    padding: 20px;
+    padding: 15px;
     color: #fff;
-    width: 60px;
-    border-radius: 50%;
+    width: 50px;
+    border-radius: 30%;
 }
 
 .social .fa:hover {
