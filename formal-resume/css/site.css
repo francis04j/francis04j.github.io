@@ -1,57 +1,122 @@
-#top {
-    background: -webkit-linear-gradient(#1B95E0, #1B95E0);
-    background: -o-linear-gradient(#1B95E0, #1B95E0);
-    background: -moz-linear-gradient(#1B95E0, #1B95E0);
-    background: linear-gradient(#1B95E0, #333);    
-    background-color: #1B95E0;
-    background-position: center;
-    background-size: cover;    
+/*********************** base ***********************/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
-header,
-section,
-footer,
-.button-group {
-    margin-top: 20px;
+body {
+    font-family: Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+    color: #222;
+    font-size: 0.93rem;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
-h1, h2 {
-    margin-top: 0;
+p {
+    margin: 0 0 15px 0;
 }
 
-header h1, header p {
+ul {
+    margin: 0 0 15px 40px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0 0 15px 0;
+}
+
+h1 {
+    font-size: 2.34rem;
+}
+
+h2 {
+    font-size: 1.87rem;
+}
+
+h3 {
+    font-size: 1.64rem;
+}
+
+h4 {
+    font-size: 1.17rem;
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small {
+    color: #888;
+}
+
+a {
+    color: #008cba;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 15px 0;
+}
+
+.btn {
+    display: inline-block;
     color: #fff;
-    font-style: italic;
-    font-weight: bold;
+    background-color: #008cba;
+    font-size: 1.17rem;
+    line-height: 1.5;
+    padding: 5px 15px;
 }
 
-p.intro {
-    font-size: 2em;
-}
-img.icon {
-    margin-right: 10px;
-    height: 65px;
+.btn:hover {
+    background-color: #006f94;
+    text-decoration: none;
 }
 
-.navbar-default {
-    background-color: #1B95E0;
-    font-size: 16px;
-}
-.label-default {
-    font-size: 100%;
-    padding: .75em;
-    line-height: 3.25;
+.badge {
+    display: inline-block;
+    color: #fff;
+    background-color: #5bc0de;
+    font-size: 0.9rem;
+    padding: 5px 15px;
+    margin: 0 0 15px 0;
 }
 
+.badge-list {
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.badge-list .badge {
+    margin: 0 0 5px 0;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+}
+
+/******************social*************/
 .social a {
     margin-right: 5px;
 }
 
 .social .fa {
     font-size: 20px;
-    padding: 15px;
+    padding: 12px;
     color: #fff;
-    width: 50px;
+    width: 25px;
     border-radius: 30%;
 }
 
@@ -90,9 +155,112 @@ img.icon {
 .social .fa-stack-overflow {
     background: #3B5998;
 }
-@media (max-width: 767px) {
-    .btn-xs-block {
+
+/*********************** layout ***********************/
+
+nav,
+.jumbotron,
+.container,
+footer {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 10px 15px;
+}
+
+header {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.brand {
+    display: block;
+    color: #fff;
+    font-size: 1.17rem;
+    font-weight: 300;
+}
+
+.brand:hover {
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: none;
+}
+
+.nav-menu a {
+    color: #ddd;
+    text-decoration: none;
+    font-size: 0.82rem;
+    font-weight: 300;
+    margin: 0 0 0 15px;
+}
+
+.nav-menu a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cover {
+    color: #fff;
+    background-color: #333;
+    border-bottom: 2px solid #333;
+    background-image: url(/images/cover.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0 0 0;
+    margin: 0 0 20px 0;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+.jumbotron h1 small {
+    color: #ddd;
+}
+
+.jumbotron p {
+    font-size: 1.17rem;
+    font-weight: 300;
+}
+
+.profile {
+    border: 5px solid #fff;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.icon:hover {
+    opacity: 0.75;
+    text-decoration: none;
+}
+
+.icon img {
+    width: 60px;
+    height: 60px;
+}
+
+@media (min-width: 576px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-menu {
         display: block;
-        width: 100%;
+    }
+
+    .row {
+        display: flex;
+    }
+
+    .row > * {
+        flex: 1 0 0%;
+        margin: 5px 5px 15px 5px;
     }
 }
