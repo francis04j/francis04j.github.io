@@ -107,6 +107,10 @@ hr {
     margin-bottom: 15px;
 }
 
+.img-thumbnail {
+    width: 20%;
+    height: 100px;
+}
 /******************social*************/
 .social a {
     margin-right: 5px;
