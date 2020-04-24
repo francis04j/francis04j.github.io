@@ -1,2 +1,5 @@
 _site/
 node_modules
+play
+yarn.lock
+yarn-error.log
