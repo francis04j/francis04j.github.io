@@ -7,3 +7,12 @@ body.light-mode {
     background-color: #1a1919;
     color: #999;
   }
+
+  h1,
+h2,
+h3,
+h4 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0 0 15px 0;
+}
