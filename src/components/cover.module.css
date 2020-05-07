@@ -1,0 +1,23 @@
+.cover {
+    color: #fff;
+    background-color: #333;
+    border-bottom: 2px solid #333;
+    background-image: url(../images/cover.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0 0 0;
+    margin: 0 0 20px 0;
+}
+
+.jumbotron {
+    font-weight: 600;
+    max-width: 720px;
+  margin: 0 auto;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.jumbotron p {
+    font-size: 1.14rem;
+  }
