@@ -14,7 +14,6 @@ const homeCover = () => {
                 <a href="https://twitter.com/fran6_ca" title="Twitter"><i className="fa fa-twitter"></i></a>                        
                 <a href="https://github.com/francis04j" title="GitHub"><i className="fa fa-github"></i></a>                        
                 <a href="https://franciscade.wordpress.com/" title="Blog"><i className="fa fa-wordpress"></i></a>
-                <a href="/play/index.html" title="Play"><i className="fa fa-wordpress"></i></a>
                 <a href="https://stackoverflow.com/users/261138/core-pro" title="Stackoverflow"><i className="fa fa-stack-overflow"></i></a>                        
             </p>
         </div>

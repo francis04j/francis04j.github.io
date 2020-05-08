@@ -34,7 +34,7 @@ const Contact = () => {
             <p>
               <strong>
                 Email:{" "}
-                <a href="francis[AT]francisade[DOT]com">francis Adediran</a>
+                <a href="francis[AT]francisade[DOT]com">francis[AT]francisade[DOT]com</a>
               </strong>
             </p>
             <p>
