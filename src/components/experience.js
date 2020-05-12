@@ -14,7 +14,7 @@ const experience = ({props}) => {
         <small>{props.jobTitle}</small>
       </h3>
       <p>
-        <span class="badge">{props.dates}</span>
+        <span className="badge">{props.dates}</span>
       </p>
       <div>
         {props.companyDesc}

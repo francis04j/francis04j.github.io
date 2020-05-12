@@ -14,7 +14,7 @@ const education = () => {
                             GCP Certified Professional Cloud Developer <br/>
                             <small>Google Cloud Platform</small>
                         </h3>
-                        <p><span class="badge">2019</span></p>
+                        <p><span className="badge">2019</span></p>
                     </div>
 
                     <div>
@@ -23,7 +23,7 @@ const education = () => {
                             AWS Certified Developer - Associate <br/>
                             <small>Amazon Web Services</small>
                         </h3>
-                        <p><span class="badge">2017</span></p>
+                        <p><span className="badge">2017</span></p>
                     </div>
 
                     <div>
@@ -32,7 +32,7 @@ const education = () => {
                             BA (Hons) Computer Science and Business <br/>
                             <small>Trinity College Dublin, Ireland</small>
                         </h3>
-                        <p><span class="badge">2006 - 2010</span></p>
+                        <p><span className="badge">2006 - 2010</span></p>
                     </div>
                 </section>
     )
