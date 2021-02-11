@@ -13,6 +13,38 @@ body {
     font-weight: 400;
     line-height: 1.5;
 }
+body.light-mode {
+    background-color: #fff;
+    color: #333;
+    transition: background-color 0.3s ease;
+ }
+ body.dark-mode {
+   background-color: #1a1919;
+   color: #999;
+ }
+
+ body.dark-mode img {
+    filter: brightness(.8) contrast(1.2);
+ }
+  
+ @media (prefers-color-scheme: dark) {
+    img {
+      filter: brightness(.8) contrast(1.2);
+    }
+  }
+
+.mode-btn {
+    border-radius: 15px;
+    margin-left: 5px;
+    height: 20px;
+    width: 85px;
+    cursor: pointer;
+}
+
+.mode-btn:focus {
+    border: none;
+    outline: none;
+}
 
 p {
     margin: 0 0 15px 0;
@@ -98,7 +130,7 @@ hr {
 }
 
 .badge-list .badge {
-    margin: 0 0 5px 0;
+    margin: 0 10px 5px 0;
 }
 
 .card {
