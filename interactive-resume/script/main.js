@@ -936,6 +936,9 @@ function fadeOutScrollOrSwipeTextContainer() {
 function positionContactConfirmationContainer() {
     for (var e = 0; e < contactConfirmationContainerArray.length; e++) "not moving 1" == layersMovement || "not moving 2" == layersMovement ? contactConfirmationContainerArray[e].style.left = robbyContainerDiv.offsetLeft + "px" : contactConfirmationContainerArray[e].style.left = robbyMaxHorizontalDistance + "px", contactConfirmationContainerArray[e].style.top = .8 * containerDiv.offsetHeight - 370 + "px"
 }
+function showThankMessage() {
+    $('.contact-confirmation-container').show();
+}
 
 function hideContactConfirmationContainer() {
     if (1 == isContactConfirmationContainerVisible) {
