@@ -14,27 +14,30 @@ $(function() {
 		// Serialize the form data.
 		var formData = $(form).serialize();
 
-		// Submit the form using AJAX.
-		$.ajax({
-			type: 'POST',
-			url: $(form).attr('action'),
-			data: formData
-		})
-		.done(function(response) {
-			// Make sure that the formMessages div has the 'success' class.
-			$(formMessages).removeClass('error');
-			$(formMessages).addClass('success');
+		var apigClient = apigClientFactory.newClient();
+		var postMsg = {
+			"name": $('#name').val(),
+			"email": $('#email').val(),
+			"message": $('#message').val()
+		}	
+		apigClient.conversationsPost({}, postMsg, {}).then(
+			function(response){
+				// Make sure that the formMessages div has the 'success' class.
+				$(formMessages).removeClass('error');
+				$(formMessages).addClass('success');
 
-			// Set the message text.
-			$(formMessages).text(response);
+				// Set the message text.
+				$(formMessages).text("Message sent.");
+					
 
-			// Clear the form.
-			$('#name').val('');
-			$('#email').val('');
-			$('#subject').val('');
-			$('#message').val('');
-		})
-		.fail(function(data) {
+				// Clear the form.
+				$('#name').val('');
+				$('#email').val('');				
+				$('#message').val('');
+
+			}
+		)
+		/*.fail(function(data) {
 			// Make sure that the formMessages div has the 'error' class.
 			$(formMessages).removeClass('success');
 			$(formMessages).addClass('error');
@@ -45,7 +48,7 @@ $(function() {
 			} else {
 				$(formMessages).text('Oops! An error occured and your message could not be sent.');
 			}
-		});
+		});*/
 
 	});
 
